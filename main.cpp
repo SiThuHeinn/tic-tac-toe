@@ -63,7 +63,7 @@ int winner()
 
         //diagonal
         if(board[0][0] == board[1][1] && board[1][1] == board[2][2]) return current_player;
-        if (board[2][0] == board[1][1] && board[1][1] == board[2][0]) return current_player;
+        if (board[2][0] == board[1][1] && board[1][1] == board[0][2]) return current_player;
 
 
     }
